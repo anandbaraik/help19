@@ -4,7 +4,7 @@
     <h1 class="mb-0">Help 19</h1>
     <p class="mt-0">Resources to help and fight Covid-19.</p>
 
-    <section class="pad">
+    <section>
       <div class="item">
         <h3 class="mb-0">Cities</h3>
         <div v-for="edge in $page.cities.edges" :key="edge.node.id">
@@ -13,7 +13,12 @@
       </div>
 
       <div class="item">
-        <h3 class="mb-0">Online Consulation</h3>
+        <h3 class="mb-0">Vaccination</h3>
+        <p>Go to <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-Win website</a> and register with your Phone number or Aarogya Setu app or Umang app.</p>
+      </div>
+
+      <div class="item">
+        <h3 class="mb-0">Online Doctor Consulation</h3>
         <ul>
           <li>
             <a href="https://www.tatahealth.com/online-Doctor-consultation/general-physician" target="_blank">Tata Online Health Consulation</a> <br>
@@ -55,10 +60,18 @@ query {
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Home',
-    description: 'Curated list of resources to help and fight Covid19.'
-  },
+  metaInfo() {
+    return {
+      title: 'Home',
+      meta: [
+        {
+          key: "description", 
+          name: "description", 
+          content: 'Curated list of resources to help and fight Covid19.'
+        },
+      ]
+    }
+  }
 }
 </script>
 

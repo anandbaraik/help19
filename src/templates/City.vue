@@ -2,7 +2,7 @@
   <Layout>
     <h1>{{ $page.city.name }}</h1>
 
-    <section class="pad" id="post-content">
+    <section id="post-content">
       <div v-html="$page.city.content" />      
 
       <terms></terms>

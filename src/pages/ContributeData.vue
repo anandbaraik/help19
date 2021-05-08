@@ -2,7 +2,7 @@
   <Layout>
     <h1>Contribute data</h1>
 
-    <section class="pad">
+    <section>
       <div>
         <h4 class="mb-0">Via WhatsApp</h4>
         <p class="mt-0">Send data via the WhatsApp group. <a href="https://chat.whatsapp.com/LxfqvOTFQMSAdzG2fOAJvL" target="_blank">Click here</a> to join the group.</p>
@@ -23,8 +23,17 @@
 
 <script>
 export default {
-  data() {
-    return {}
+  metaInfo() {
+    return {
+      title: 'Contribute Data',
+      meta: [
+        {
+          key: "description", 
+          name: "description", 
+          content: 'Ways to contribute data to Help19.'
+        },
+      ]
+    }
   }
 }
 </script>

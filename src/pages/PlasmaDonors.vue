@@ -2,7 +2,7 @@
   <Layout>
     <h1>Plasma Donors</h1>
 
-    <section class="pad">
+    <section>
       <ul>
         <li>
           <a href="http://coronaclusters.in/plasma/donors"
@@ -48,8 +48,17 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: "Help19",
-  },
+  metaInfo() {
+    return {
+      title: 'Plasma Donors',
+      meta: [
+        {
+          key: "description", 
+          name: "description", 
+          content: 'Find Plasma donors from these websites.'
+        },
+      ]
+    }
+  }
 };
 </script>
