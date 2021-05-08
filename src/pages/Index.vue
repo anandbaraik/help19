@@ -31,12 +31,9 @@
         <g-link to="/plasma-donors">Websites List</g-link> <br>
       </div>
 
-      <div style="margin-top: 6rem; margin-bottom: 1rem; text-align: center;">
-        <small class="mb-0">Made with Gridsome, hosted on Netlify.</small> <br>
-        <small class="mt-0 mb-0">Source code on <a href="https://github.com/insidert/insidert" target="_blank">GitHub</a>.</small>
+      <div class="text-center">
+        <g-link class="nav__link" to="/about/">About this website</g-link>
       </div>
-
-      <terms></terms>
     </section>
 
   </Layout>
@@ -57,16 +54,11 @@ query {
 </page-query>
 
 <script>
-import Terms from "../components/Terms.vue";
-
 export default {
   metaInfo: {
-    title: 'Help19'
+    title: 'Home',
+    description: 'Curated list of resources to help and fight Covid19.'
   },
-  
-  components: {
-    Terms
-  }
 }
 </script>
 

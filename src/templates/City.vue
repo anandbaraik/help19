@@ -4,6 +4,8 @@
 
     <section class="pad" id="post-content">
       <div v-html="$page.city.content" />      
+
+      <terms></terms>
     </section>  
   </Layout>
 </template>
@@ -20,6 +22,7 @@ query ($path: String!) {
 
 
 <script>
+import Terms from "../components/Terms.vue";
 
 export default {
   metaInfo() {
@@ -38,5 +41,9 @@ export default {
       ]
     }
   },
+
+  components: {
+    Terms
+  }
 }
 </script>

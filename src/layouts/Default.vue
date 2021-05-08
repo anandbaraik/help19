@@ -1,12 +1,10 @@
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
+      <h3>{{ $static.metadata.siteName }}</h3>
       <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/contribute-data">Contribute Data</g-link>
       </nav>
     </header>
     <slot/>
@@ -35,6 +33,12 @@ body {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: large;
+  }
 }
 
 .header {
