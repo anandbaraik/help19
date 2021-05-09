@@ -15,18 +15,17 @@
       <div class="item">
         <h3 class="mb-0">Vaccination</h3>
         <p>Go to <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-Win website</a> and register with your Phone number or Aarogya Setu app or Umang app.</p>
+        <p>Check slot availability without signing into Co-Win webiste in <a href="https://www.vaccinateme.in/covid/?type=district">vaccinateme.in</a></p>
       </div>
 
       <div class="item">
         <h3 class="mb-0">Online Doctor Consulation</h3>
         <ul>
           <li>
-            <a href="https://www.tatahealth.com/online-Doctor-consultation/general-physician" target="_blank">Tata Online Health Consulation</a> <br>
-            <small>Chat and video call available. Rs. 100/- for consulation.</small>
+            <a href="https://www.practo.com/">Practo</a> <br>
           </li>
           <li>
-            <a href="https://www.practo.com/">Practo</a> <br>
-            <small>Chat and video call available. Consulation fee may starts from Rs. 399/- First time users may also get some discount.</small>
+            <a href="https://www.tatahealth.com/online-Doctor-consultation/general-physician" target="_blank">Tata Online Health Consulation</a> <br>
           </li>
         </ul>
       </div>
@@ -34,6 +33,11 @@
       <div class="item">
         <h3 class="mb-0">Plasma Donors</h3>
         <g-link to="/plasma-donors">Websites List</g-link> <br>
+      </div>
+
+      <div class="item">
+        <h3 class="mb-0">Twitter Feeds</h3>
+        <a href="https://external.sprinklr.com/insights/explorer/dashboard/601b9e214c7a6b689d76f493/tab/1?id=DASHBOARD_601b9e214c7a6b689d76f493&home=1" target="_blank">Sprinklr.com</a>
       </div>
 
       <div class="text-center">

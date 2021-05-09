@@ -87,4 +87,9 @@ a:active {
   display: flex;
   justify-content: space-between;
 }
+
+#post-content ul > li > p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
 </style>
