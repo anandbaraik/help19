@@ -3,7 +3,7 @@ name: "Ranchi (Jharkhand)"
 updatedOn: "2021-05-09"
 ---
 
-- [Govt. Portal](#govt-portal)
+- [Govt Portal](#govt-portal)
 - [Delivery For Essentials Goods](#delivery-for-essentials-goods)
 - [Oxygen](#oxygen)
 
