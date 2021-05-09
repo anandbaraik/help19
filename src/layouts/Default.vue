@@ -92,4 +92,50 @@ a:active {
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
+
+/* ===== Responsice table CSS ===== */
+table {
+  border-collapse: collapse;
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+table th {
+  background-color: green;
+  color: white;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #908d91 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #908d91;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
 </style>
