@@ -145,16 +145,17 @@ updatedOn: "2021-05-04"
 
 ## Food Home Delivery
 
-- Kodali Gopi Krishna - 9179350485
-- Aryan's Bakehouse - 8638768120
-- Home's Kitchen - 9121006852
-- Prashansa Food - 6300258303
-- Mom's Kitchen - 6302194824
-- Puja Ki Rasoi - 8073298032
-- Chef Jolly - 9848218309
-- Janhavi Flavours of Home - 6300965328 / 6301192607
+- Kodali Gopi Krishna: 9179350485
+- Aryan's Bakehouse: 8638768120
+- Home's Kitchen: 9121006852
+- Prashansa Food: 6300258303
+- Mom's Kitchen: 6302194824
+- Puja Ki Rasoi: 8073298032
+- Chef Jolly: 9848218309
+- Janhavi Flavours of Home: 6300965328 / 6301192607
 - Feed the Needy: 7995404040
 - Vivek Reddy: 9030904343 (home cooked, free delivery nearby shivam road areas)
+- Narisena - Free food and delivery (Volunteer work): 9182225202, 9000118870, 9963425551
 
 ## Vaccination centers
 
