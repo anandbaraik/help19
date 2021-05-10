@@ -29,6 +29,7 @@ updatedOn: "2021-05-04"
 - Nova ENT hospital, Somajiguda: 7729949575
 - Aashritha hospital, Kompally: 8367003433
 - Prada hospital, Nacharam: 9177972837
+- Rise Hospital, Mehdipatnam : 9849139127 (Contact person: Ram Manohar)
 
 ## Beds Availability Enquiry
 
@@ -153,6 +154,7 @@ updatedOn: "2021-05-04"
 - Chef Jolly - 9848218309
 - Janhavi Flavours of Home - 6300965328 / 6301192607
 - Feed the Needy: 7995404040
+- Vivek Reddy: 9030904343 (home cooked, free delivery nearby shivam road areas)
 
 ## Vaccination centers
 
@@ -161,3 +163,5 @@ updatedOn: "2021-05-04"
 ## Other Resources
 
 - [Hyderabad Covid Reosurces](https://hydcovidresources.com/), app and website to get all information related to covid help just like this website.
+- Free doctor assistance
+  - Dr. Deeksha Reddy : 9573199879
